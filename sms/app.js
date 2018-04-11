@@ -51,6 +51,6 @@ app.post('/sms', function(req, res){
     }
 });
 
-app.listen(3000, '192.168.0.240', function(){
+app.listen(3000,  function(){
     console.log("servidor rodando");
 });
